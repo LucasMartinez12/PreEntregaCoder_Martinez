@@ -1,0 +1,155 @@
+
+/**HEADER**/
+header{
+    border: 3px solid black;
+    border-bottom: none;
+height: 100px;
+background-color: rgba(245, 63, 8, 0.753);
+grid-area: header;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(243, 240, 237);
+}
+.fondo {
+    background-color: rgba(162, 245, 175, 0.507);
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li :hover{
+    color: yellow;
+}
+header nav ul li :active{
+    color: red;
+}
+header nav ul li a{   
+    margin-inline-start: auto;
+    color: rgb(248, 240, 240);
+    margin: 0 10px;
+    padding: 1rem;
+}
+/**Fin del Header**/
+/**MAIN**/
+main{
+    border-right: solid black;
+    border-left: solid black;
+    background-image: url(../img/fondoo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+grid-area: main;
+}
+
+h2 {
+    padding-top: 20px;
+    font-family: stanley;
+    src: url("../fonts/Stanley.otf");
+    height: 45px;
+text-align: center;
+color: rgb(243, 242, 238);
+}
+h3{
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+    height: 28px;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+}
+main section{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,200px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+img{
+    width: 100%;
+}
+#img1{
+    padding-right: 200px;
+}
+#img3{
+    padding-left: 200px;
+}
+#img4{
+    padding-right: 200px;
+}
+#img6{
+    padding-left: 200px;
+}
+
+
+aside{
+    height: 150px;
+    background-image: url(../img/fuego\ azul.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-area: aside;
+}
+/**Fin del Main**/
+/**Footer**/
+footer{
+    border: solid black;
+    border-top: none;
+    height: 150px;
+    background-image: url(../img/fondogris.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: footer;
+}
+#parrafo2{
+    padding-top: 1px;
+    text-align: center;
+}
+#caja2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 6px;
+    border: solid black;
+}
+#img7{
+    height: 40px;
+    padding-left: 5px;
+}
+#parrafo3{
+    padding-right: 20px;
+    text-align: end;
+}
+/**Fin del Footer**/
+
+@media (max-width: 480px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100% 100px 100px;
+        grid-template-areas: 
+        "header"
+        "main"
+        "aside"
+        "footer"
+        }
+}
+img{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PcGamesESP</title>
+    <link rel="shortcut icon" href="img/icons8-control-50.png">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1>PcGamesESP</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="formulario.html">Registrate</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="oferta.html">Ofertas</a>
+                    <a href="plataforma.html">Plataforma</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin del Header-->
+    <!--Main-->
+    <main>
+        <br>
+        <h2>Registrate</h2>
+            <form action="/formulario" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa su Nombre" />
+        <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Ingresa su Apellido" />
+        <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su Email" />
+        <br>
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" id="Contraseña" name="Contraseña" placeholder="Ingrese su Contraseña"required>
+        <br>
+        <p>Ingrese su comentario para futuras ofertas</p>
+        <textarea cols="50" rows="10" id="Comentario" placeholder="Ingrese Comentario" name="Comentario"></textarea>
+        <input type="submit">
+        <button type="reset">Borrar</button>
+        <p>Seleccionar su Plan</p>
+        <input type="radio"name="usuario">
+        <span>Basico</span>
+        <input type="radio"name="usuario">
+        <span>Premium</span>
+        <input type="radio"name="usuario">
+        <span>Gold</span>
+        <p>País</p>
+        <select name="Paises">
+            <option value="Argentina">Argentina</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Brasil">Brasil</option>
+                    <input type="checkbox">
+                    <span>Terminos y Condiciones</span>
+    </main>
+    <!--Fin del Main-->
+    <!--Footer-->
+    <footer>
+        <section>
+            <p id="parrafo2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat consequuntur dicta ipsum culpa eveniet, debitis repellendus aut rerum nobis porro amet doloremque pariatur commodi enim quis iure, 
+            deleniti impedit voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nam asperiores placeat fugit aperiam sit, reiciendis quisquam, aspernatur perferendis ipsam aliquid? 
+            Ratione nobis ex non iure quibusdam quae eligendi doloremque.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, corrupti. Ipsam voluptatibus harum ducimus laborum dolores, impedit vero minus id vitae libero totam voluptatum aut quod ab accusantium</p>
+        </section>
+            <div class="caja" id="caja2">W</div>
+            <img id="img7" src="img/instagram-6338401_1280.webp" alt="logo instagram">
+        <br>
+            <p id="parrafo3">Copyright 2023</p>
+    </footer>
+    <!--Fin del Footer-->
+</body>
+</html>

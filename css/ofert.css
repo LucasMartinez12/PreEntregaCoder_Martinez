@@ -1,0 +1,100 @@
+/**HEADER**/
+header{
+    border: 3px solid black;
+    border-bottom: none;
+height: 100px;
+background-color: rgba(245, 63, 8, 0.753);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(243, 240, 237);
+}
+.fondo {
+    background-color: rgba(162, 245, 175, 0.507);
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{   
+    margin-inline-start: auto;
+    color: rgb(248, 240, 240);
+    margin: 0 10px;
+    padding: 1rem;
+}
+#img0{
+    height: 60px;
+    padding-left: 1700px;
+    padding-top: 25px;
+}
+/**Fin del HEADER**/
+/**MAIN**/
+main{
+    border-right: solid black;
+    border-left: solid black;
+    background-image: url(../img/ofertas2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 705px;
+    border: solid black;
+    border-top: none;
+    border-bottom: none;
+}
+main table{
+    color: white;
+}
+main h2{
+    color: white;
+    padding-left: 1515px;
+    padding-top: 100px;
+}
+main section img{
+    width: 430px;
+    padding-left: 1430px;
+    padding-top: 30px;
+}
+
+main section a{
+    margin: 0 10px;
+}
+/**Fin del Main**/
+/**FOOTER**/
+footer{
+    border: solid black;
+    border-top: none;
+    height: 150px;
+    background-image: url(../img/fondogris.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#parrafo2{
+    padding-top: 35px;
+    text-align: center;
+}
+#caja2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 6px;
+    border: solid black;
+}
+#img7{
+    height: 40px;
+    padding-left: 5px;
+}
+#parrafo3{
+    padding-right: 20px;
+    text-align: end;
+}
+/**Fin del Footer**/
